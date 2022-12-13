@@ -1,0 +1,26 @@
+{
+  "author": "Andrew Dawson <dawso.andrew@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/Vavassor/nws-client-website/issues"
+  },
+  "description": "Documentation for NWS Client",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "homepage": "https://github.com/Vavassor/nws-client-website#readme",
+  "license": "MIT",
+  "name": "nws-client-website",
+  "packageManager": "yarn@3.3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vavassor/nws-client-website.git"
+  },
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
