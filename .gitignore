@@ -12,3 +12,6 @@
 
 # Eleventy
 _site
+
+# Deployment products
+nws-client
