@@ -28,7 +28,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@11ty/eleventy", "npm:1.0.2"]\
+            ["@11ty/eleventy", "npm:1.0.2"],\
+            ["markdown-it", "npm:13.0.1"],\
+            ["markdown-it-anchor", "virtual:289b75bf637d21d325e6fb734a4fd8359f2a8f8389df2af6bb2a423033aa359f1d6cbd986bdb7bda27b3f2589599d2cfda30e3da619e84a31240d8fb5d7a12be#npm:8.6.5"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -1259,6 +1261,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["entities", "npm:2.1.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:3.0.1", {\
+          "packageLocation": "./.yarn/cache/entities-npm-3.0.1-21eeb201ba-aaf7f12033.zip/node_modules/entities/",\
+          "packageDependencies": [\
+            ["entities", "npm:3.0.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["env-paths", [\
@@ -2134,6 +2143,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["uc.micro", "npm:1.0.6"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:4.0.1", {\
+          "packageLocation": "./.yarn/cache/linkify-it-npm-4.0.1-9c7d5a3cd6-3e0a299212.zip/node_modules/linkify-it/",\
+          "packageDependencies": [\
+            ["linkify-it", "npm:4.0.1"],\
+            ["uc.micro", "npm:1.0.6"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["liquidjs", [\
@@ -2255,6 +2272,40 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["linkify-it", "npm:3.0.3"],\
             ["mdurl", "npm:1.0.1"],\
             ["uc.micro", "npm:1.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:13.0.1", {\
+          "packageLocation": "./.yarn/cache/markdown-it-npm-13.0.1-dcb1a8675c-faf5891d38.zip/node_modules/markdown-it/",\
+          "packageDependencies": [\
+            ["markdown-it", "npm:13.0.1"],\
+            ["argparse", "npm:2.0.1"],\
+            ["entities", "npm:3.0.1"],\
+            ["linkify-it", "npm:4.0.1"],\
+            ["mdurl", "npm:1.0.1"],\
+            ["uc.micro", "npm:1.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["markdown-it-anchor", [\
+        ["npm:8.6.5", {\
+          "packageLocation": "./.yarn/cache/markdown-it-anchor-npm-8.6.5-7d0fc2ff23-9a466279e5.zip/node_modules/markdown-it-anchor/",\
+          "packageDependencies": [\
+            ["markdown-it-anchor", "npm:8.6.5"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:289b75bf637d21d325e6fb734a4fd8359f2a8f8389df2af6bb2a423033aa359f1d6cbd986bdb7bda27b3f2589599d2cfda30e3da619e84a31240d8fb5d7a12be#npm:8.6.5", {\
+          "packageLocation": "./.yarn/__virtual__/markdown-it-anchor-virtual-2267109aa4/0/cache/markdown-it-anchor-npm-8.6.5-7d0fc2ff23-9a466279e5.zip/node_modules/markdown-it-anchor/",\
+          "packageDependencies": [\
+            ["markdown-it-anchor", "virtual:289b75bf637d21d325e6fb734a4fd8359f2a8f8389df2af6bb2a423033aa359f1d6cbd986bdb7bda27b3f2589599d2cfda30e3da619e84a31240d8fb5d7a12be#npm:8.6.5"],\
+            ["@types/markdown-it", null],\
+            ["markdown-it", "npm:13.0.1"]\
+          ],\
+          "packagePeers": [\
+            "@types/markdown-it",\
+            "markdown-it"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2618,7 +2669,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["nws-client-website", "workspace:."],\
-            ["@11ty/eleventy", "npm:1.0.2"]\
+            ["@11ty/eleventy", "npm:1.0.2"],\
+            ["markdown-it", "npm:13.0.1"],\
+            ["markdown-it-anchor", "virtual:289b75bf637d21d325e6fb734a4fd8359f2a8f8389df2af6bb2a423033aa359f1d6cbd986bdb7bda27b3f2589599d2cfda30e3da619e84a31240d8fb5d7a12be#npm:8.6.5"]\
           ],\
           "linkType": "SOFT"\
         }]\
