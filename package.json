@@ -16,7 +16,7 @@
     "url": "git+https://github.com/Vavassor/nws-client-website.git"
   },
   "scripts": {
-    "build": "npx @11ty/eleventy",
+    "build": "npx @11ty/eleventy --pathprefix=nws-client-website",
     "serve": "npx @11ty/eleventy --serve"
   },
   "version": "1.0.0",
