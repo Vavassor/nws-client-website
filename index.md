@@ -7,4 +7,4 @@ title: "Home"
 
 NWS Client is a JavaScript library for the [National Weather Service API](https://www.weather.gov/documentation/services-web-api).
 
-[Get started](/getting-started)
+[Get started]({{ '/getting-started' | url }})
