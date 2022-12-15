@@ -14,8 +14,6 @@ jobs:
           cache: 'yarn'
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-      - name: Build
-        run: yarn build
       - name: Rebuild API
         run: |
           git clone https://github.com/Vavassor/nws-client.git
@@ -23,6 +21,8 @@ jobs:
           yarn install --frozen-lockfile
           yarn docs:external
           cd ..
+      - name: Build
+        run: yarn build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
