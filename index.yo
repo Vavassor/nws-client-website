@@ -1,0 +1,28 @@
+---
+layout: layouts/default
+title: "Home"
+---
+
+# NWS Client
+
+NWS Client is a JavaScript library for the [National Weather Service API](https://www.weather.gov/documentation/services-web-api).
+
+[Get started]({{ '/getting-started' | url }})
+
+## Why NWS Client?
+
+### Free
+
+The NWS API is a public service of the United States Government and there are no fees to use it.
+
+### TypeScript
+
+NWS Client supports TypeScript and is written in it. It helps to maintain types, which are complicated for NWS API data.
+
+### Platforms
+
+Web Browsers, [Node.js](https://nodejs.org/en/), and [React Native](https://reactnative.dev/) are all supported platforms.
+
+## Further Reading
+
+[Release Notes](https://github.com/Vavassor/nws-client/blob/main/CHANGELOG.md)

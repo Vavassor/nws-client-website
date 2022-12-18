@@ -1,8 +1,145 @@
+:root {
+  --black: #000000;
+  --cyan-50: #edfdfd;
+  --cyan-500: #00b5d8;
+  --cyan-700: #0987a0;
+  --cyan-800: #086f83;
+  --cyan-900: #065666;
+  --grey-50: #f7fafc;
+  --grey-100: #edf2f7;
+  --grey-200: #e2e8f0;
+  --grey-500: #718096;
+  --orange-50: #fffaf0;
+  --orange-100: #feebc8;
+  --orange-200: #fbd38d;
+  --white: #ffffff;
+}
+
+a {
+  color: var(--cyan-900);
+}
+
+a:focus,
+a:hover {
+  background-color: var(--cyan-50);
+}
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-block-end: 0.25rem;
+}
+
+p {
+  line-height: 1.5;
+}
+
+pre {
+  background-color: var(--grey-50);
+  border: 1px solid var(--grey-200);
+  border-radius: 4px;
+  font-family: "Noto Sans Mono", monospace;
+  max-height: 400px;
+  overflow: auto;
+  padding: 1rem;
+}
+
+footer {
+  background-color: var(--orange-100);
+  margin-block-start: auto;
+}
+
+footer a {
+  color: var(--black);
+}
+
+main {
+  margin: auto;
+  max-width: 50em;
+}
+
+.footer-area {
+  margin: auto;
+  max-width: 50rem;
+  padding-block: 2rem;
+  text-align: center;
+}
+
 .heading-and-link h1,
 .heading-and-link h2,
 .heading-and-link h3,
 .heading-and-link h4 {
   display: inline-block;
+  margin-block-start: 0.75rem;
+}
+
+.home-header {
+  background-color: var(--cyan-900);
+  color: var(--orange-100);
+  padding-block-end: 4rem;
+  padding-block-start: 2rem;
+  text-align: center;
+}
+
+.home-header a {
+  color: var(--orange-100);
+}
+
+.home-header a:focus,
+.home-header a:hover {
+  background-color: var(--cyan-800);
+  color: var(--white);
+}
+
+.home-header h1 {
+  color: var(--white);
+}
+
+.home-header .button-link {
+  background-color: var(--cyan-700);
+  border-radius: 4px;
+  color: var(--white);
+  display: inline-block;
+  font-weight: 600;
+  margin-block-start: 1rem;
+  padding-block: 0.75rem;
+  padding-inline: 1.5rem;
+  text-decoration: none;
+}
+
+.home-header .button-link:focus,
+.home-header .button-link:hover {
+  background-color: var(--cyan-800);
+}
+
+.home-main {
+  max-width: 50em;
+  padding-block-end: 3rem;
+  padding-block-start: 1rem;
+}
+
+.main-header ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  margin-inline-start: 16px;
+  padding: 0;
+}
+
+.main-header li a {
+  display: block;
+  padding: 16px;
 }
 
 .visually-hidden {

@@ -4,10 +4,7 @@
     {% include 'head-contents.njk' %}
   </head>
   <body>
-    {% include 'header.njk' %}
-    <main>
-      {{ content | safe }}
-    </main>
+    {{ content | safe }}
     {% include 'footer.njk' %}
   </body>
 </html>
